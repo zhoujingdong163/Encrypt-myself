@@ -13,7 +13,7 @@ If you like this project, you can give a star support ✨!
 
 This software is encrypted based on RSA encryption, driven by C++, with the serial number of the drive as the public key, to ensure that users can still recover through our tools in the case of complete loss of data (such as user reinstallation system, driver, etc.) to ensure the security of data.
 
-At the same time, our encryption tool is faster than other tools, and our software can reach up to about $2times10^4byte/s$ under the condition of ensuring the security of your data foundation, provided that your computer should try to avoid other high-computing software occupying system resource space.
+At the same time, our encryption tool is faster than other tools, and our software can reach up to about $2\times10^4byte/s$ under the condition of ensuring the security of your data foundation, provided that your computer should try to avoid other high-computing software occupying system resource space.
 
 And our encryption software is highly secure, requiring that the decryption operation must be on the original encrypted drive (if you really need to, you can back up the data in advance), otherwise our RSA encryption algorithm may decrypt something you don't expect.
 
