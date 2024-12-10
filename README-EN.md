@@ -1,5 +1,5 @@
 # Encrypt-myself Documentation in English
-[Chinese(中文)](README-CN.md)|English(英文)
+[Chinese(中文)](README.md)|English(英文)
 
 ## Preamble
 
