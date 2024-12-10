@@ -26,7 +26,9 @@ Chinese(中文)|[English(英文)](README-EN.md)
 
 编译完成后，会生成一个 `.exe` 应用程序，请按照您喜好的关键字为这个 `exe` 程序命名；
 
-例如在接下来的步骤中我的生成的应用程序名为 `Encrypt-myself.exe` ，那么接下来的程序执行中 `<Name>` 所指的关键字就是 `Encrypt-myself` ，即当我运行命令 `Encrypt-myself -h` 时，会弹出帮助窗口。
+例如在接下来的步骤中我的生成的应用程序名为 `Encrypt-myself.exe` ，那么接下来的程序执行中 `<Name>` 所指的关键字就是 `Encrypt-myself` ，即当我运行命令 `Encrypt-myself -h` 时，会弹出帮助窗口（**您运行的 cmd 或者 powershell 必须与文件处于同一目录下**）。
+
+温馨提示：建议您可以将此编译好的 `exe` 文件放置在 `C:/Windows/system32` 目录下，这样可以为您带来更好的服务体验！
 
 ### 命令说明
 
@@ -39,3 +41,4 @@ Chinese(中文)|[English(英文)](README-EN.md)
 `-e <FilePath> <FileName>` 加密绝对路径 `FilePath` 下的 `FileName` 文件（注意有文件后缀的一定要加后缀）
 
 `-d <FilePath> <FileName> ` 解密绝对路径 `FilePath` 下的 `FileName` 文件（您需要登录后才能进行此操作）
+
