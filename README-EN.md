@@ -33,10 +33,10 @@ Tips: It is recommended that you can place this compiled 'exe' file in the 'C:/W
 
 **Each command should be preceded by \<Name>  arguments, omitted**
 
-'-h' helps
+`-h` helps
 
-'-l' login (decryption of files can only be performed after login)
+`-l <Word>` login (decryption of files can only be performed after login)
 
-'-e' encrypts the 'FileName' file under the absolute path 'FilePath' (note that the file suffix must be added with a suffix)
+`-e <FilePath> <FileName>` encrypts the 'FileName' file under the absolute path 'FilePath' (note that the file suffix must be added with a suffix)
 
-'-d' decrypts the 'FileName' file under the absolute path 'FilePath' (you need to be logged in to do this)
+`-d <FilePath> <FileName>` decrypts the 'FileName' file under the absolute path 'FilePath' (you need to be logged in to do this)
