@@ -23,11 +23,11 @@ Theoretically, all characters that appear in the Ascall code table should be abl
 
 After you discover our project, you can download it through our packaged files, or you can compile it yourself by downloading the source code we distribute.
 
-After the compilation is completed, a '.exe' application will be generated, please name this 'exe' program according to your preferred keyword;
+After the compilation is completed, a `.exe` application will be generated, please name this `exe` program according to your preferred keyword;
 
-For example, in the next step, the name of my generated application is 'Encrypt-myself.exe', then the keyword referred to by '' in the next program execution is 'Encrypt-myself', that is, when I run the command 'Encrypt-myself -h', a help window will pop up (**you are running cmd or powershell must be in the same directory as the file**).
+For example, in the next step, the name of my generated application is `Encrypt-myself.exe`, then the keyword referred to by `<Name>` in the next program execution is `Encrypt-myself`, that is, when I run the command 'Encrypt-myself -h`, a help window will pop up (**you are running cmd or powershell must be in the same directory as the file**).
 
-Tips: It is recommended that you can place this compiled 'exe' file in the 'C:/Windows/system32' directory, which can bring you a better service experience!
+Tips: It is recommended that you can place this compiled `exe` file in the `C:/Windows/system32` directory, which can bring you a better service experience!
 
 ### Command description
 
