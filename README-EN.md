@@ -1,5 +1,5 @@
 # Encrypt-myself Documentation in English
-[Chinese(中文)](README.md)|English(英文)
+[Chinese(中文)](README-CN.md)|English(英文)
 
 ## Preamble
 
@@ -25,16 +25,18 @@ After you discover our project, you can download it through our packaged files, 
 
 After the compilation is completed, a '.exe' application will be generated, please name this 'exe' program according to your preferred keyword;
 
-For example, in the next step, the name of my generated application is 'Encrypt-myself.exe', then the keyword referred to by '' in the next program execution is 'Encrypt-myself', that is, when I run the command 'Encrypt-myself -h', a help window will pop up.
+For example, in the next step, the name of my generated application is 'Encrypt-myself.exe', then the keyword referred to by '' in the next program execution is 'Encrypt-myself', that is, when I run the command 'Encrypt-myself -h', a help window will pop up (**you are running cmd or powershell must be in the same directory as the file**).
+
+Tips: It is recommended that you can place this compiled 'exe' file in the 'C:/Windows/system32' directory, which can bring you a better service experience!
 
 ### Command description
 
-**Each command should be preceded by \<Name> arguments, omitted**
+**Each command should be preceded by \<Name>  arguments, omitted**
 
-`-h` helps
+'-h' helps
 
-`-l <Word>` login (decryption of files can only be performed after login)
+'-l' login (decryption of files can only be performed after login)
 
-`-e <FilePath> <FileName>` encrypts the 'FileName' file under the absolute path 'FilePath' (note that the file suffix must be added with a suffix)
+'-e' encrypts the 'FileName' file under the absolute path 'FilePath' (note that the file suffix must be added with a suffix)
 
-`-d <FilePath> <FileName>` decrypts the 'FileName' file under the absolute path 'FilePath' (You need to be logged in to do this.)
+'-d' decrypts the 'FileName' file under the absolute path 'FilePath' (you need to be logged in to do this)
